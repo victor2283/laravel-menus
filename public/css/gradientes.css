@@ -1,0 +1,76 @@
+
+
+.grd-top-dsk {
+
+background: #f50c33;
+background: -moz-linear-gradient(-45deg, #f50c33 0%, #f01822 27%, #111214 48%, #070807 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, #f50c33), color-stop(27%, #f01822), color-stop(48%, #111214), color-stop(100%, #070807));
+background: -webkit-linear-gradient(-45deg, #f50c33 0%, #f01822 27%, #111214 48%, #070807 100%);
+background: -o-linear-gradient(-45deg, #f50c33 0%, #f01822 27%, #111214 48%, #070807 100%);
+background: -ms-linear-gradient(-45deg, #f50c33 0%, #f01822 27%, #111214 48%, #070807 100%);
+background: linear-gradient(135deg, #f50c33 0%, #f01822 27%, #111214 48%, #070807 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f50c33', endColorstr='#070807', GradientType=1 );
+}
+.grd-top-mbl {
+
+
+background: #f50c33;
+background: -moz-linear-gradient(-45deg, #f50c33 0%, #f01822 27%, #111214 48%, #070807 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, #f50c33), color-stop(27%, #f01822), color-stop(48%, #111214), color-stop(100%, #070807));
+background: -webkit-linear-gradient(-45deg, #f50c33 0%, #f01822 27%, #111214 48%, #070807 100%);
+background: -o-linear-gradient(-45deg, #f50c33 0%, #f01822 27%, #111214 48%, #070807 100%);
+background: -ms-linear-gradient(-45deg, #f50c33 0%, #f01822 27%, #111214 48%, #070807 100%);
+background: linear-gradient(135deg, #f50c33 0%, #f01822 27%, #111214 48%, #070807 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f50c33', endColorstr='#070807', GradientType=1 );
+font-family: Arial, sans-serif;
+position: relative;
+     
+     
+}
+.grd-1 {
+
+background: rgba(255,255,255,1);
+background: -moz-linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
+background: -webkit-linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+background: -o-linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+background: -ms-linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
+    }
+
+.grd-2 {
+background: #f85032;
+background: -moz-linear-gradient(top, #f85032 0%, #f16f5c 50%, #f6290c 51%, #f02f17 71%, #e73827 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, #f85032), color-stop(50%, #f16f5c), color-stop(51%, #f6290c), color-stop(71%, #f02f17), color-stop(100%, #e73827));
+background: -webkit-linear-gradient(top, #f85032 0%, #f16f5c 50%, #f6290c 51%, #f02f17 71%, #e73827 100%);
+background: -o-linear-gradient(top, #f85032 0%, #f16f5c 50%, #f6290c 51%, #f02f17 71%, #e73827 100%);
+background: -ms-linear-gradient(top, #f85032 0%, #f16f5c 50%, #f6290c 51%, #f02f17 71%, #e73827 100%);
+background: linear-gradient(to bottom, #f85032 0%, #f16f5c 50%, #f6290c 51%, #f02f17 71%, #e73827 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#e73827', GradientType=0 );
+}
+
+.grd-3{
+    background: #499bea;
+background: -moz-linear-gradient(top, #499bea 0%, #207ce5 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, #499bea), color-stop(100%, #207ce5));
+background: -webkit-linear-gradient(top, #499bea 0%, #207ce5 100%);
+background: -o-linear-gradient(top, #499bea 0%, #207ce5 100%);
+background: -ms-linear-gradient(top, #499bea 0%, #207ce5 100%);
+background: linear-gradient(to bottom, #499bea 0%, #207ce5 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5', GradientType=0 );
+}
+
+.grd-borde{
+border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 0px inherit #ad90ad;
+
+}
+.grd-sombra{
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}

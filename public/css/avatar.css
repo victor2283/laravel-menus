@@ -1,0 +1,8 @@
+  .avatar {
+        vertical-align: middle;
+        width: 45px;  /*antes 35*/
+        height: 45px; /*antes 35*/
+        border-radius: 100%; /* antes50 */
+      }
+  
+ 

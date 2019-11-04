@@ -1,0 +1,16 @@
+.boton_personalizado{
+    background: #de2600;
+    border: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    color: #fff;
+    font-size: 16px;
+    margin: 4px 0 4px 4px;
+    padding: 4px 12px 3px;
+    vertical-align: text-bottom;
+    border-radius: 6px;
+  }
