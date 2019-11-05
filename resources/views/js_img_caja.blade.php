@@ -7,32 +7,31 @@
 
                 fileInput.addEventListener('change', function(e) {
                         var file = fileInput.files[0];
+                        var fileSize = fileInput.files[0].size;
+                        var siezekiloByte = parseInt(fileSize / 1024);
                         var imageType = /image.*/;
 
                         if (file.type.match(imageType)) {
-                             if(file.size < 1200 ){ // 1.2 mb
+                              if(siezekiloByte < 1124 ){ 
                                 var reader = new FileReader();
-                                reader.onload = function(e) {
+                                reader.onload = function(e){
                                         fileDisplayArea.innerHTML = "";
 
-                                        /* var img = new Image();
-                                        img.src = reader.result; */
-
-                                        /* fileDisplayArea.appendChild(img); */
+                                        fileDisplayArea.innerHTML = '<h1 class ="text-white center">Tamaño: '+ siezekiloByte +' Kb</h1>';
                                         fileDisplayArea.style.backgroundImage='url('+ reader.result +')'; 
                                         $("#{{$binario_img}}").val(reader.result);
-                                }
-
-                                reader.readAsDataURL(file);
-                             }else{
+                                 }
+                                        
+                                         reader.readAsDataURL(file);
+                             }else{ 
                              
                                 fileDisplayArea.style.backgroundImage='url()';  
-                                fileDisplayArea.innerHTML = "<h1 class ='text-white center'>Archivo es mayor al tamaño maximo permitido</h1>"
-                             }   
+                                fileDisplayArea.innerHTML = "<h1 class ='bg-danger text-white center'>El Archivo es Mayor al tamaño máximo permitido en KB, pesa "+siezekiloByte+" Kb </h1>"; 
+                              }   
                                 	
                         }else {
                                 fileDisplayArea.style.backgroundImage='url()'; 
-                                fileDisplayArea.innerHTML = "<h1 class ='text-white center'>Archivo no soportado</h1>"
+                                fileDisplayArea.innerHTML = "<h1 class ='text-white center'>Archivo no soportado</h1>";
                         }
                 });
 
